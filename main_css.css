@@ -1,0 +1,62 @@
+@font-face{
+    src:url("./font/MaruBuri-Regular.ttf");
+    font-family:"maru";
+}
+
+html{
+    font-family:"maru";
+}
+
+#content{
+    text-align: center;
+    margin: auto;
+    width:540px;
+    font-family: 'Noto Serif KR', serif;
+}
+
+#box{
+    background-color:lightgray;
+    padding:20px;
+    border-radius: 30px;
+}
+
+@media (max-width : 541px){
+    /*
+    가로가 540px 보다 클 때  
+    */
+    #content{
+        width:90%;
+    }
+
+}
+
+#start{
+    margin-top: 20px;
+    border-radius: 30px;
+    width:80%;
+    height: 40px;
+    font-size: small;
+    font-weight: bold;
+}
+#our_link{
+    position: relative;
+    width:55%;
+    height:24px;
+    border-style: none;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+#copy_link{
+    position: relative;
+    margin-top: 20px;
+    width:20%;
+    height: 24px;
+    font-size:10px;
+    font-weight: 600;
+    border-style: none;
+}
+
+
+h5{
+    font-size:larger;
+}

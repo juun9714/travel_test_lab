@@ -1,0 +1,147 @@
+
+@font-face{
+    src:url("./font/MaruBuri-Regular.ttf");
+    font-family:"maru";
+}
+html{
+    font-family:"maru";
+}
+#content{
+    text-align: center;
+    margin: 100px auto;
+    width:540px;
+}
+
+@media (max-width : 541px){
+    #content{
+        width:80%;
+        text-align: center;
+        margin: 100px auto;
+    }
+}
+
+#ques{
+    font-size: medium;
+    padding-bottom: 20px;
+}
+#one{
+    margin-top: 20px;
+    border-radius: 30px;
+    width:80%;
+    height: 40px;
+    font-size: larger;
+}
+
+#two{
+    margin-top: 20px;
+    border-radius: 30px;
+    width:80%;
+    height: 40px;
+    font-size: larger;
+}
+#anchor{
+    background-color: lightgray;
+    text-align: center;
+    margin:auto;
+    display: block;
+    border-radius: 30px;
+    width:80%;
+    height: 40px;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    border-color: black;
+    border:2px solid black;
+}
+
+
+
+
+#content{
+    text-align: center;
+    margin: 100px auto;
+    width:540px;
+}
+
+#result_box{
+    background-color:lightgray;
+    padding:20px;
+    border-radius: 30px;
+    line-height: 200%;
+    font-size:11px;
+}
+
+@media (max-width : 541px){
+    /*
+    가로가 540px 보다 클 때  
+    */
+    #content{
+        width:90%;
+    }
+
+}
+
+#shot{
+    margin-top: 20px;
+    border-radius: 30px;
+    width:80%;
+    height: 40px;
+    font-size: small;
+    font-weight: 600;
+}
+
+#our_link{
+    position: relative;
+    width:55%;
+    height:24px;
+    border-style: none;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+#copy_link{
+    position: relative;
+    margin-top: 20px;
+    width:20%;
+    height: 24px;
+    font-size:10px;
+    font-weight: 600;
+    border-style: none;
+}
+
+
+#home{
+    margin-top: 20px;
+    border-radius: 30px;
+    width:80%;
+    height: 40px;
+    font-size: small;
+    font-weight: 600;
+}
+
+h5{
+    font-size:larger;
+}
+
+#nickname{
+    font-size: medium;
+}
+
+#character{
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+#chars_box{
+    margin-top: 20px;
+    background-color:lightgray;
+    padding:20px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.chars{
+    margin-top: 12px;
+    font-size:11px;
+    line-height: 200%;
+}
+
